@@ -15,7 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:server": "react-scripts test --watchAll=false",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eslint:github-action": "eslint src/"
   },
   "eslintConfig": {
     "extends": "react-app"
