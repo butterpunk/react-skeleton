@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "test:server": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "eslint:github-action": "eslint src/"
+    "eslint:github-action": "eslint src/ --max-warnings=0"
   },
   "eslintConfig": {
     "extends": "react-app"
